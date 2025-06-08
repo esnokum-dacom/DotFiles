@@ -1,0 +1,78 @@
+*{
+    font:"RobotoMono Nerd Font 9";
+
+    background-color:   transparent;
+    text-color: #ffffffff;
+
+    border: none;
+    text-align: center;
+    vertical-align: 0.5;
+  }
+
+window{
+    background-color: transparent;
+    border: none;
+
+    width: 400px;
+  }
+
+inputbar{
+    padding: 8px;
+    children: [ prompt, entry];
+  }
+
+prompt{
+    text-color: #ffffffff;
+    margin: 0px 10px 0px 0px;
+  }
+
+entry{
+    placeholder: "Open";
+    placeholder-color: #c0c0c0ff;
+    text-color: #ffffffff;
+  }
+
+message{
+    text-color: #ffffffff;
+  }
+
+scrollbar{
+    background-color: transparent;
+    border: 1px;
+    border-color: #ffffffff;
+    margin: 2px;
+    padding: -1px;
+  }
+
+num-rows{
+    enabled: false;
+  }
+
+textbox-current-entry{
+    text-color: #ffffffff;
+  }
+
+textbox{
+    text-color: #ffffffff;
+  }
+
+listview{
+    background-color: transparent;
+    lines: 8;
+    border: none;
+  }
+
+element{
+    padding: 5px;
+    text-align: center;
+  }
+
+element selected normal, element selected active{
+    background-color: transparent;
+  }
+
+ element-text {
+    highlight: none;
+  }
+
+
